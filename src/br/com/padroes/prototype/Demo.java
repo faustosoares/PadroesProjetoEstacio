@@ -31,6 +31,8 @@ public class Demo {
             shapesCopy.add(shape.clone());//shape.clone() chama método clone da classe correspondente ao objeto contindo no LIST
         }
         
+        System.out.println(shapes);
+        System.out.println(shapesCopy);
           
         for (int i = 0; i < shapes.size(); i++) {
             if (shapes.get(i) != shapesCopy.get(i)) {
